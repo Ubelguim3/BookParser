@@ -9,7 +9,6 @@ fun main() {
 
     var bookQuotes: Elements = doc.select(".bzpNIu")
 
-
     for (quotes: Element in bookQuotes) {
         println("${quotes.text()} \n")
     }
